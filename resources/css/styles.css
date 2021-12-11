@@ -1,0 +1,192 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+* {
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
+	margin: 0.1%;
+}
+
+body {
+	background-color: white;
+	/*background-color: #D0EDF1;*/
+}
+
+h1, h2, a {
+	color: #5062AA;
+}
+
+h2 {
+	margin: 5% 0;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 80px;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+
+.logo, .menu {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: auto 5%;
+}
+
+.logo {
+	width: 300px;
+	height: 100%;
+	border-radius: 10px;
+	background-color: #5062AA;
+	margin-left: 0;
+	text-align: center;
+	justify-content: center;
+}
+
+.logo h1 {
+	color: #D0EDF1;
+	font-size: 1.4rem;
+}
+
+ul {
+	height: 100%;
+	flex-direction: row;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 20px 20px;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+	margin: auto 5%;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+a:hover {
+	border-radius: 10px;
+	color: #D0EDF1;
+	background-color: #5062AA;
+}
+
+img:hover {
+	/*border: solid 2px #5062AA;*/
+	transition: transform .4s;
+	transform: scale(1.1);
+	padding: 1px;
+	box-shadow: 0 0 5px #5062AA, 0 0 5px #5062AA, 0 0 10px #5062AA;
+}
+
+.section-1, .section-2, .section-3 {
+	border: 2px solid green;	/* ---------> BORRAR!!! <---------------*/
+	min-height: 350px;
+	max-height: 100%;
+	display: flex;
+	flex-flow: row wrap;	
+	justify-content: space-around;
+	margin: auto 1%;
+	padding: 2% 2%;
+}
+
+.photo {
+	display: flex;
+	flex-flow: column;
+	height: 350px;
+	width: 350px;
+	margin: 1%;
+	text-align: center;
+}
+
+.photo img {
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.photo h2 {
+	
+}
+
+footer {
+	height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+
+	.section-1, .section-2, .section-3 {
+		border: 2px solid green;	/* ---------> BORRAR!!! <---------------*/
+		min-height: 500px;
+		display: flex;
+		flex-flow: column wrap;	
+		justify-content: center;
+		align-items: center;
+		margin: auto 1%;
+		padding: 2% 2%;
+	}
+
+	img:hover {
+		transform: scale(1.05);
+	}
+
+	header {
+		height: 120px;
+	}
+
+	nav {
+		width: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.logo, .menu {
+		min-width: 350px;
+		height: 40%;
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-around;
+	}
+
+	a, ul, li {
+		margin: 0;
+		padding: 0;
+	}
+
+	a {
+		padding: 5px 5px;
+	}
+
+	ul {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+}
