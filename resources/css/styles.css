@@ -53,12 +53,13 @@ nav {
 }
 
 .logo {
-	width: 300px;
-	height: 100%;
+	max-width: 350px;
+	min-height: 50px;
 	border-radius: 10px;
 	background-color: #5062AA;
 	text-align: center;
 	justify-content: center;
+	margin-left: 0;
 }
 
 .logo h1 {
@@ -172,6 +173,7 @@ footer {
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: space-around;
+		margin: auto;
 	}
 
 	a, ul, li {
