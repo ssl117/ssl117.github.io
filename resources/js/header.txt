@@ -1,0 +1,1 @@
+document.write('<header><nav><div class="logo"><h1>Rachel Photo Blog</h1></div><div  class="menu"><ul><li><a href="#">Home</a></li><li><a href="#">Photos</a></li><li><a href="#">Drawings</a></li><li><a href="#">Info</a></li></ul></div></nav></header>')
