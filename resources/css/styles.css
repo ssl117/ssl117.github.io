@@ -36,6 +36,7 @@ header {
 	height: 80px;
 	margin-top: 0;
 	margin-bottom: 2px;
+	z-index: 5;
 }
 
 nav {
@@ -182,6 +183,58 @@ a:hover {
 footer {
 	height: 200px;
 }
+
+/* ---------------------------------------> INFO PAGE <--------------------------------------->*/
+
+main {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 0 2%;
+	min-height: 500px;
+	max-height: 1200px;
+}
+
+#section-info, #info-info {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 45%;
+	margin: 0 10px;
+	padding: 0;
+	margin-top: 20px;
+	align-self: center;
+}
+
+#photo-info {
+	border-radius: 100px;
+	height: 400px;
+	width: 450px;
+    max-height: 550px;
+	max-width: 650px;
+}
+
+#section-info {
+
+}
+
+#info-info {
+	text-align: justify;
+	letter-spacing: 2px;
+	line-height: 1.6;
+}
+
+p {
+	color: #A5A58D;
+	font-weight: lighter;
+}
+
+span {
+	font-weight: bolder;
+	font-size: 2.4rem;
+	letter-spacing: normal;
+}
+
 
 /* ---------------------------------------> MEDIUM SCREENS <--------------------------------------->*/
 
