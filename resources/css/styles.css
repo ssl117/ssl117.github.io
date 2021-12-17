@@ -14,7 +14,7 @@ html {
 
 body {
 	background-color: white;
-	margin-top: 80px;
+	margin-top: 10%;
 	/*background-color: #D0EDF1;*/
 }
 
@@ -28,12 +28,12 @@ h2 {
 
 header {
 	width: 100%;
+	height: 15%;
 	position: fixed; /* Set the navbar to fixed position */
   	top: 0; /* Position the navbar at the top of the page */
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	height: 80px;
 	margin-top: 0;
 	margin-bottom: 2px;
 	z-index: 5;
@@ -78,7 +78,7 @@ nav {
 
 .logo h1 {
 	color: #A5A58D;
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	font-weight: lighter;
 }
 
@@ -94,6 +94,7 @@ a {
 	text-decoration: none;
 	list-style-type: none;
 	padding: 12px 12px;
+	font-size: 1.6rem;
 }
 
 li {
@@ -101,7 +102,6 @@ li {
 	list-style-type: none;
 	margin: auto 5%;
 	font-weight: lighter;
-	font-size: 1.2rem;
 }
 
 a:hover {
@@ -245,7 +245,7 @@ span {
 	}
 
 	body {
-		margin-top: 120px;
+		margin-top: 25%;
 		/*background-color: #D0EDF1;*/
 	}
 
@@ -275,7 +275,7 @@ span {
 	}
 
 	header {
-		height: 120px;
+		height: 20%;
 	}
 
 	nav {
@@ -287,12 +287,20 @@ span {
 	}
 
 	.logo, .menu {
-		min-width: 350px;
+		min-width: 500px;
 		height: 40%;
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: space-around;
 		margin: auto;
+	}
+
+	.logo h1 {
+		font-size: 1.8rem;
+	}
+
+	a {
+		font-size: 1.8rem;
 	}
 
 	ul, li {
